@@ -134,22 +134,5 @@ flowchart TD
   urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
   ```
 
-## Contribution Guidelines
 
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open Pull Request
 
-## License
-
-MIT License - See LICENSE file for details
-
----
-
-🛠 **Future Roadmap**:
-- User authentication system
-- Shopping cart functionality
-- Payment gateway integration
-- Product search and filtering
