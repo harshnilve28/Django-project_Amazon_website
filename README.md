@@ -99,9 +99,6 @@ flowchart TD
 
 ## Troubleshooting
 
-❗ **Template not found**:
-- Ensure `DIRS` in `TEMPLATES` (settings.py) includes `os.path.join(BASE_DIR, 'templates')`
-
 ❗ **Media files not loading**:
 - Add to `settings.py`:
   ```python
