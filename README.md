@@ -97,26 +97,6 @@ flowchart TD
   - Forms for product management (`forms.py`)
   - Bootstrap-friendly templates
 
-## Customization Guide
-
-1. **Add new product fields**:
-   - Edit `Clothes/models.py`
-   - Create new migration:
-     ```bash
-     python manage.py makemigrations
-     python manage.py migrate
-     ```
-
-2. **Change styling**:
-   - Add static files directory in `settings.py`
-   - Create `static/` folder at project root
-   - Link CSS in templates via `{% static %}` tag
-
-3. **Extend functionality**:
-   - Add new views in `views.py`
-   - Create corresponding URLs in `urls.py`
-   - Design new templates in `templates/Clothes/`
-
 ## Troubleshooting
 
 ❗ **Template not found**:
