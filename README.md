@@ -50,35 +50,37 @@ flowchart TD
 
 ## Setup Instructions
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/amazon-clone.git
-   cd amazon-clone
-   ```
-
-2. **Create virtual environment**
+1. **Create virtual environment**
    ```bash
    python -m venv venv
    source venv/bin/activate  # Linux/Mac
    venv\Scripts\activate     # Windows
    ```
 
-3. **Install dependencies**
+2. **Install dependencies**
    ```bash
    pip install django pillow
    ```
-
-4. **Run migrations**
+   
+2. **Create Project and APP**
    ```bash
+   django-admin startproject Amazon #Project name
+   cd flipkart
+   python manage.py startapp Clothes #App name
+   ```
+   
+3. **Run migrations**
+   ```bash
+   python manage.py makemigrations
    python manage.py migrate
    ```
 
-5. **Create superuser (for admin)**
+4. **Create superuser (for admin)**
    ```bash
    python manage.py createsuperuser
    ```
 
-6. **Run development server**
+5. **Run development server**
    ```bash
    python manage.py runserver
    ```
